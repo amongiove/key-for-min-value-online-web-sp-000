@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   lowest_num = 1000000000
+  lowest_num_key = " "
   if name_hash == {}
     return nil
   else
@@ -10,9 +11,10 @@ def key_for_min_value(name_hash)
       if num < lowest_num
         lowest_num = num
       else
-        return name
+        lowest_num_key = name
       end
     end
+    lowest_num_key
   end
 end
 
