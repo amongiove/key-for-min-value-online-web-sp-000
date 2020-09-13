@@ -9,6 +9,6 @@ def key_for_min_value(name_hash)
     else number < lowest_number
       puts lowest_number = number
     end
-    print lowest_number
   end
+  print lowest_number
 end
