@@ -6,10 +6,10 @@ def key_for_min_value(name_hash)
   name_hash.each do |name, number|
     if lowest_number == ""
       lowest_number = number
-    else number < lowest_number
+    if number < lowest_number
       lowest_number = number
     end
-    lowest_number
+    puts lowest_number
     name_hash.each do |name, number|
       if number == lowest_number
         return name
