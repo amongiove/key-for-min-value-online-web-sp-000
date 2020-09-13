@@ -11,12 +11,11 @@ def key_for_min_value(name_hash)
       if num < lowest_num
         lowest_num = num
       else
-        lowest_num_key = name
+        return name
       end
     end
-    lowest_num_key
+    return name
   end
-  lowest_num_key
 end
 
 
