@@ -10,5 +10,4 @@ def key_for_min_value(name_hash)
      lowest_number = number
     end
   end
-  print lowest_number
 end
