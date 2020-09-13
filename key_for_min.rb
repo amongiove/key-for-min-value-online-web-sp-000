@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   lowest_num = 1000000000
   name_hash.each do |name, num|
-    if name == " " 
+    if name == " "
       return nil
     if num < lowest_num
       lowest_num = num
