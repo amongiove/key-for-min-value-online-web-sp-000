@@ -3,11 +3,11 @@
 
 def key_for_min_value(name_hash)
   lowest_number = ""
-  name_hash.each do |name, number|
+  name_hash.collect do |name, number|
     if lowest_number == ""
-      puts lowest_number = number
+     lowest_number = number
     else number < lowest_number
-      puts lowest_number = number
+     lowest_number = number
     end
   end
   print lowest_number
