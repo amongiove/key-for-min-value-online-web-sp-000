@@ -5,9 +5,9 @@ def key_for_min_value(name_hash)
   lowest_number = ""
   name_hash.each do |name, number|
     if lowest_number == ""
-      lowest_number = number
+      puts lowest_number = number
     else number < lowest_number
-      lowest_number = number
+      puts lowest_number = number
     end
     print lowest_number
   end
